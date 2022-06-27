@@ -29,7 +29,7 @@ This should install the modules, build the app, and start the server on port `40
 
 To create an account, make a post request to `/account/register`
 
-example payload  ```{
+ - example payload  ```{
  name: "Test Account",
  username: "test",
  password: "testpassword"
@@ -37,13 +37,13 @@ example payload  ```{
 
 To login, make a post request to `/account/login`
 
-expample payload ```{
+ - example payload ```{
 username: "test",
 password: "testpassword"
 }```
 
 
-Copy the `token` created from the login response and use that as an authorization token for subquent request to the endpoints.
+Copy the `token` created from the login response and use that as an `authorization token` for subquent request to the endpoints.
 
 e.g `Authorization: Bearer ${token}`
 
