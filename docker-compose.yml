@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  clipboard:
+    build: .
+    command: npm start
+    volumes:
+      - .:/usr/src/app/
+      - /usr/src/app/node_modules
+    ports:
+      - "4000:4000"
