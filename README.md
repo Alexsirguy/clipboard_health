@@ -11,7 +11,7 @@ There are multiple options for running the server
 #### Running with docker
 
 `docker-compose up`
-This should install the modules, run tests, build the app, and start the server on port `4000`.
+This should install the modules, build the app, and start the server on port `4000`.
 
 #### Running with npm
 
