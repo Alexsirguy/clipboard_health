@@ -16,6 +16,7 @@ This should install the modules, run tests, build the app, and start the server 
 #### Running with npm
 
 `npm install` to install the module
+
 `npm start` to start the local server on port `4000`.
 
 
