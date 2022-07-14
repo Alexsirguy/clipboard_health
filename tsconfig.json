@@ -8,6 +8,7 @@
       "sourceMap": true,
       "outDir": "dist",
       "types": ["mocha", "jest", "chai"],
+      "skipLibCheck": true
     },
     "lib": ["es2015"]
 }
