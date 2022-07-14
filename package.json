@@ -8,7 +8,7 @@
     "test:integration": "mocha --exit  --reporter spec --check-leaks",
     "start": "nodemon src/main.ts",
     "serve": "npx pm2 start dist/app.js",
-    "build": "tsc",
+    "build": "npx tsc",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix"
   },
